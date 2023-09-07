@@ -65,6 +65,7 @@ class OciApi
     "displayName": "$displayName",
     "availabilityDomain": "$availabilityDomain",
     "sourceDetails": {$config->getSourceDetails()},
+    "isPvEncryptionInTransitEnabled": true,
     "createVnicDetails": {
         "assignPublicIp": false,
         "subnetId": "{$config->subnetId}",
